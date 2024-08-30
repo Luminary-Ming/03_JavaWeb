@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="login-register-update-delete:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/login_register_update_delete_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="login-register-update-delete" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="login-register-update-delete/web/Web" />
+    </root>
+  </artifact>
+</component>

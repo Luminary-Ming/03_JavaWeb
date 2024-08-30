@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaWeb.iml" filepath="$PROJECT_DIR$/.idea/JavaWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web01/Web01.iml" filepath="$PROJECT_DIR$/Web01/Web01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web02/Web02.iml" filepath="$PROJECT_DIR$/Web02/Web02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web03/Web03.iml" filepath="$PROJECT_DIR$/Web03/Web03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web04/Web04.iml" filepath="$PROJECT_DIR$/Web04/Web04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/login-register-update-delete/login-register-update-delete.iml" filepath="$PROJECT_DIR$/login-register-update-delete/login-register-update-delete.iml" />
+    </modules>
+  </component>
+</project>

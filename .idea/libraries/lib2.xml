@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/junit-platform-commons-1.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/hutool-all-5.8.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/mysql-connector-j-8.0.33.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/druid-1.2.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/slf4j-api-2.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/junit-jupiter-api-5.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/HikariCP-4.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/login-register-update-delete/web/WEB-INF/lib/junit-platform-engine-1.10.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

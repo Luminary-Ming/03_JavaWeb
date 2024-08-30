@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/Web04/login">
+    <p>账号：<input type="text" name="account"></p>
+    <p>密码：<input type="password" name="password"></p>
+    <p>确认密码：<input type="password" name="rePassword"></p>
+    <p>
+        <button type="submit">注册</button>
+    </p>
+</form>
+<script>
+    /**
+     * 在输入账号之后，光标离开，需要验证输入的账号是否已经被注册
+     */
+    let account = document.querySelector("input[name='account']");
+    // 绑定离开焦点事件
+    account.addEventListener("blur", function () {
+        checkAccount();
+    });
+
+    // 使用 Ajax 发送请求
+    function checkAccount() {
+        // 1. 创建 XMLHttpRequest 对象
+        let xhr = new XMLHttpRequest();
+        // 2. 设置请求路径，get 请求参数需要在地址后面拼接
+        xhr.open("get", "###########");
+        // 3. 发出请求，post请求，参数需要书写在send方法中
+        xhr.send();
+        // 4. 需要给 xhr 绑定一个状态改变的事件
+        xhr.addEventListener("readystatechange", function () {
+            /**
+             * 根据 xhr 的状态变化，来获取响应的数据
+             * status ： 表示响应的 Http 状态码
+             * readyState : 表示 XMLHttpRequest 对象目前处于哪种状态
+             *   0 ：XMLHttpRequest 对象已被创建，但尚未调用 open() 方法。
+             *   1 ：open() 方法已经被调用。 XMLHttpRequest 对象与服务器建立连接
+             *   2 ：send() 方法已经被调用， XMLHttpRequest 对象将请求发送给服务器
+             *   3 ：服务器已经接收到请求，正在处理请求，还没有响应数据
+             *   4 ：服务器已经将请求处理完成，并且数据已经响应回来
+             */
+            if (xhr.status == 200 && xhr.readyState == 4) {
+                // 控制台打印服务器已经响应回来的数据
+                console.log(xhr.responseText)
+            }
+        });
+    }
+</script>
+</body>
+</html>
